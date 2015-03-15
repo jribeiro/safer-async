@@ -2,7 +2,7 @@
 
 /*!
  * async
- * https://github.com/jribeiro/saferAsync
+ * https://github.com/jribeiro/safer-async
  *
  * Copyright 2015 Joao Ribeiro
  * Released under the MIT license
