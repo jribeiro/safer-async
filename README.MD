@@ -11,3 +11,5 @@ callback(err)
 ```
 * notification of function start and callback calling - useful for monitoring and tracking how long a function is taking
  to complete
+
+ WIP - check the tests for examples

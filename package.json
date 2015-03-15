@@ -4,7 +4,8 @@
   "description": "Provides better error handling and profiling for the async library",
   "main": "./lib/saferAsync",
   "scripts": {
-    "test": "nodeunit test/saferAsync.js"
+    "test": "nodeunit test/saferAsync.js",
+    "lint": "jshint test/saferAsync.js"
   },
   "repository": {
     "type": "git",
@@ -31,7 +32,6 @@
     "lodash": "^3.5.0"
   },
   "devDependencies": {
-    "nodeunit": "^0.9.1",
-    "resolve": "^1.1.5"
+    "nodeunit": "^0.9.1"
   }
 }
