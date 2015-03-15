@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /*!
  * async
  * https://github.com/jribeiro/saferAsync
@@ -6,8 +8,15 @@
  * Released under the MIT license
  */
 
-exports['test'] = function (test) {
-    test.equal(1,1);
+//var reporter = require('nodeunit').reporters.default;
+var async = require('../lib/saferAsync');
 
-    test.done();
-};
+var asyncTests = require('../async/test/test-async');
+var _ = require('lodash');
+
+delete asyncTests['noConflict - node only']
+
+_.each(asyncTests, function (fn, key) {
+
+    exports[key] = fn;
+});
