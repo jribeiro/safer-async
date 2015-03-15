@@ -1,5 +1,7 @@
 # saferAsync
 
+[![Build Status](https://travis-ci.org/jribeiro/saferAsync.svg?branch=0.0.1)](https://travis-ci.org/jribeiro/saferAsync)
+
 [Async](https://github.com/caolan/async) library is great but it can be quite hard to debug and figure out what's
 happening behind the scenes. saferAsync aims to solve this by wrapping the async library functions, providing:
 * error handling - [domains](https://nodejs.org/api/domain.html);
