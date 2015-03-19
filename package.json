@@ -1,11 +1,11 @@
 {
   "name": "safer-async",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Provides better error handling and profiling for the async library",
   "main": "./lib/saferAsync",
   "scripts": {
     "test": "nodeunit test/saferAsync.js",
-    "lint": "jshint test/saferAsync.js"
+    "lint": "jshint lib/saferAsync.js"
   },
   "repository": {
     "type": "git",
