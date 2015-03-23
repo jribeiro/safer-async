@@ -1,6 +1,6 @@
 {
   "name": "safer-async",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Provides better error handling and profiling for the async library",
   "main": "./lib/saferAsync",
   "scripts": {
