@@ -1,6 +1,6 @@
 {
   "name": "safer-async",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Provides better error handling and profiling for the async library",
   "main": "./lib/saferAsync",
   "scripts": {
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/jribeiro/safer-async",
   "dependencies": {
-    "async": "^0.9.0",
+    "async": "^1.4.0",
     "lodash": "^3.5.0"
   },
   "devDependencies": {
